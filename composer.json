@@ -1,0 +1,22 @@
+{
+	"name": "huglester/translated",
+	"type": "library",
+	"description": "Helper to work with youtube/vimeo videos, and others.",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "huglester",
+			"email": "huglester@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"symfony/finder": "2.*"
+	},
+
+	"autoload": {
+		"psr-0": { "Huglester\\Translated": "src/" }
+	},
+
+	"minimum-stability": "dev"
+}
