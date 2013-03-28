@@ -9,12 +9,11 @@ class Date
 	protected $from = 'en';
 	protected $mode = 'basic';
 	
-	protected $validLanguages = array();
-
-	function __construct()
-	{
-		$this->_prep_languages();
-	}
+	protected $validLanguages = array(
+		'en',
+		'lt',
+		'ru',
+	);
 
 	public function setFrom($lang)
 	{
@@ -74,7 +73,7 @@ class Date
 		return str_replace($from_array, $to_array, $str);
 	}
 
-	protected function _prep_languages()
+/*	protected function _prep_languages()
 	{
 		$finder = new Finder();
 
@@ -85,6 +84,6 @@ class Date
 			// only add Tld.php files, without interface, etc
 			(strlen($lang) === 2) and $this->validLanguages[] = strtolower($lang);
 		}
-	}
+	}*/
 
 }
