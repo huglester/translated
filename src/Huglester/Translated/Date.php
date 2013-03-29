@@ -57,6 +57,9 @@ class Date
 			throw new \Exception("TO language should be specified.");
 		}
 
+		// No need to translate
+		if ($this->from === $this->to) { return $str; }
+
 		$from_class = 'Huglester\Translated\Tld\\'.ucfirst($this->from);
 		$to_class = 'Huglester\Translated\Tld\\'.ucfirst($this->to);
 

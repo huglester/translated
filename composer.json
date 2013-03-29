@@ -1,7 +1,7 @@
 {
 	"name": "huglester/translated",
 	"type": "library",
-	"description": "Helper to work with youtube/vimeo videos, and others.",
+	"description": "Helps to translate date() strings to different languages.",
 	"license": "MIT",
 	"authors": [
 		{
