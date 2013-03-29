@@ -50,7 +50,7 @@ class Date
 	{	
 		// Set up languages if given
 		($to) and $this->setTo($to);
-		($from) and $this->setTo($from);
+		($from) and $this->setFrom($from);
 
 		if ( ! $this->to)
 		{
