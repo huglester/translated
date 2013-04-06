@@ -57,8 +57,20 @@ class Lt implements TldInterface
 
 	public function monthsShort()
 	{
-		// does not have
-		return array();
+		return array(
+			1 => 'Sau',
+			'Vas',
+			'Kov',
+			'Bal',
+			'Geg',
+			'Bir',
+			'Lie',
+			'Rug',
+			'Rug',
+			'Spa',
+			'Lap',
+			'Gru',
+		);
 	}
 
 }
