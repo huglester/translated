@@ -70,8 +70,8 @@ class Date
 		// Мaртa instead of: Март etc..
 		$mode = ($this->mode === 'to') ? 'monthsTo' : 'months';
 
-		$from_array = array_merge($from_class->$mode(), $from_class->days());
-		$to_array = array_merge($to_class->$mode(), $to_class->days());
+		$from_array = array_merge($from_class->$mode(), $from_class->monthsShort(), $from_class->days());
+		$to_array = array_merge($to_class->$mode(), $to_class->monthsShort(), $to_class->days());
 		
 		return str_replace($from_array, $to_array, $str);
 	}
