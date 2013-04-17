@@ -16,7 +16,7 @@ $t = new Huglester\Translated\Date;
 $t->setTo('ru'); // language we want translate to
 
 // change the language we translate to
-dd($t->tr(date('F')), 'ru'); // or pass as a second  parameter here
+$t->tr(date('F'), 'ru'); // or pass as a second  parameter here
 
 ### Examples
 
