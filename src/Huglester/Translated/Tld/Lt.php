@@ -15,7 +15,7 @@ class Lt implements TldInterface
 			'Ketvirtadienis',
 			'Pentradienis',
 			'Šeštadienis',
-			'Sekamdienis',
+			'Sekmadienis',
 		);
 	}
 
